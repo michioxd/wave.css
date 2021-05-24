@@ -10,6 +10,9 @@ wave.css - vanilla ripple effect - extract from Material Design Lite
 <script src="http://release.michio.ga/wave.css/code/wave.css.min.js"></script>
 <!-- include wave.css script -->
 ```
+You don't need add CSS element
+
+The
 ### Corners Element
 ```html
 <button style="position:relative">
