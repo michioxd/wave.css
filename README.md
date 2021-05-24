@@ -22,4 +22,4 @@ The
 ```
 
 ## Credits
-michio nakano
+michio nakano (michio kawaii~)
