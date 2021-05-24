@@ -1,4 +1,4 @@
-// wave.css-- by michio nakano
+// wave.css -- by michio nakano
 // Github: https://github.com/michioxd/wave.css
 (function() {
     //get element have wavecss class
@@ -65,7 +65,7 @@
             document.body.appendChild(a);
             var b = "absolute" === window.getComputedStyle(a).position;
             document.body.removeChild(a);
-            b || (a = document.createElement("style"), a.textContent = '/* STYLE WAS INJECTED BY wavecss */ .wavecss,.wavecss.fill::after{position:absolute;top:0;left:0;right:0;bottom:0}.wavecss{display:block;overflow:hidden;border-radius:inherit;-webkit-mask-image:-webkit-radial-gradient(circle,#fff,#000)}.wavecss.fill::after{content:""}.wavecss.fill{border-radius:1000000px}.wavecss .wavee{position:absolute;border-radius:100%;background:currentColor;opacity:.2;-webkit-transition:-webkit-transform .4s ease-out,opacity .4s ease-out;transition:transform .4s ease-out,opacity .4s ease-out;width:0;height:0;-webkit-transform:scale(0);transform:scale(0);pointer-events:none;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.wavecss .wavee.stato{opacity:.4;-webkit-transform:scale(1);transform:scale(1)}.wavecss .wavee.done{opacity:0}',
+            b || (a = document.createElement("style"), a.textContent = '/* STYLE WAS INJECTED BY wavecss */ .wavecss,.wavecss.fill::after{position:absolute;top:0;left:0;right:0;bottom:0}.wavecss{display:block;overflow:hidden;border-radius:inherit;-webkit-mask-image:-webkit-radial-gradient(circle,#fff,#000)}.wavecss.corner::after{content:""}.wavecss.corner{border-radius:1000000px}.wavecss .wavee{position:absolute;border-radius:100%;background:currentColor;opacity:.2;-webkit-transition:-webkit-transform .4s ease-out,opacity .4s ease-out;transition:transform .4s ease-out,opacity .4s ease-out;width:0;height:0;-webkit-transform:scale(0);transform:scale(0);pointer-events:none;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.wavecss .wavee.stato{opacity:.4;-webkit-transform:scale(1);transform:scale(1)}.wavecss .wavee.done{opacity:0}',
                 document.head.insertBefore(a, document.head.firstChild));
             loadWave()
         }
